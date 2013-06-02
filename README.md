@@ -1,12 +1,12 @@
 Request Analyzer
 ================
 
-* What is request analyzer?
+* **What is request analyzer?**
 
 Request Analyzer is simple proxy server which log important details of connections such as posted data,url,cookies,host and ...
 
 
-* Why I developed it?
+* **Why I developed it?**
 
 I need to analyze some firefox addons to see what they collect aboud me,so I develop this to be sure about my privacy when using addons and extensions. But you can use it for other aims. 
 
