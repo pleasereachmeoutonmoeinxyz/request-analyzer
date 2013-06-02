@@ -1,12 +1,12 @@
 Request Analyzer
 ================
 
-*What is request analyzer?
+* What is request analyzer?
 
 Request Analyzer is simple proxy server which log important details of connections such as posted data,url,cookies,host and ...
 
 
-*Why you develop it?
+* Why I developed it?
 
 I need to analyze some firefox addons to see what they collect aboud me,so I develop this to be sure about my privacy when using addons and extensions. But you can use it for other aims. 
 
@@ -25,7 +25,10 @@ npm install http-proxy
 
     - -l or --log to store log in to special file (default is log.txt)
 
-```nodejs analyzer.js -p 8000 -h moeinhm.ir -l moein.txt```
+```
+nodejs analyzer.js -p 8000 -h moeinhm.ir -l moein.txt
+```
+
 above code run proxy server on port number 8000 and filter request for moeinhm.ir and save log to moein.txt.
 
 ##Roadmap:
